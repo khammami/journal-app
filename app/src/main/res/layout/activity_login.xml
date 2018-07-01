@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:context=".ui.LoginActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/ic_app"/>
+
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sign_in_button_margin"
+        app:cornerRadius="@dimen/sign_in_button_radius"
+        app:icon="@drawable/ic_google_logo"
+        app:iconSize="@dimen/sign_in_button_icon_size"
+        app:iconPadding="8dp"
+        app:additionalPaddingEndForIcon="@dimen/sign_in_button_icon_padding_end"
+        app:additionalPaddingStartForIcon="@dimen/sign_in_button_icon_padding_start"
+        app:iconTintMode="src_over"
+        app:backgroundTint="@android:color/white"
+        android:textColor="@color/primaryColor"
+        app:rippleColor="@color/secondaryColor"
+        app:iconTint="@android:color/transparent"
+        android:text="@string/sign_in_up_with_google"/>
+
+    <ProgressBar
+        android:id="@+id/sign_in_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_margin="@dimen/sign_in_button_margin"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/login_terms_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:textSize="@dimen/disclaimer_font_size"
+        android:text="@string/app_terms_disclaimer"/>
+
+</LinearLayout>

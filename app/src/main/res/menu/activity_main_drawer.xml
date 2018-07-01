@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_journal"
+            android:icon="@drawable/ic_journal_black_24dp"
+            android:title="@string/action_journal" />
+
+    </group>
+
+    <group android:id="@+id/settings_group">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/action_settings" />
+    </group>
+
+</menu>

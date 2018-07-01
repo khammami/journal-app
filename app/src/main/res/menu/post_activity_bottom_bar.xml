@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/date_picker"
+            android:title="@string/bottom_view_date_label"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:checkable="false"
+            android:checked="false"/>
+        <item
+            android:id="@+id/time_picker"
+            android:title="@string/bottom_view_time_label"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:checkable="false"
+            android:checked="false"/>
+
+        <item
+            android:id="@+id/post_bg_color"
+            android:title="@string/bottom_view_color_label"
+            android:icon="@drawable/ic_color_lens_black_24dp"
+            android:checkable="false"
+            android:checked="false"/>
+        <item
+            android:id="@+id/delete_post"
+            android:title="@string/bottom_view_delete_label"
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:checkable="false"
+            android:checked="false"/>
+
+    </group>
+
+</menu>

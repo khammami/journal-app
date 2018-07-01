@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#795548</color>
+    <color name="primaryLightColor">#a98274</color>
+    <color name="primaryDarkColor">#4b2c20</color>
+    <color name="secondaryColor">#90a4ae</color>
+    <color name="secondaryLightColor">#c1d5e0</color>
+    <color name="secondaryDarkColor">#62757f</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="appIconRedColor">#ef5350</color>
+    <color name="appIconBlueColor">#176bef</color>
+    <color name="appIconYellowColor">#f7b529</color>
+    <color name="appIconGreenColor">#179c52</color>
+
+    <!--reds-->
+    <color name="md_red_100">#FFCDD2</color>
+
+    <!-- pinks -->
+    <color name="md_pink_100">#F8BBD0</color>
+
+    <!-- purples -->
+    <color name="md_purple_100">#E1BEE7</color>
+
+    <!-- deep purples -->
+    <color name="md_deep_purple_100">#D1C4E9</color>
+
+    <!-- indigo -->
+    <color name="md_indigo_100">#C5CAE9</color>
+
+    <!--blue-->
+    <color name="md_blue_100">#BBDEFB</color>
+
+    <!-- light blue-->
+    <color name="md_light_blue_100">#B3E5FC</color>
+
+    <!-- cyan -->
+    <color name="md_cyan_100">#B2EBF2</color>
+
+    <!-- teal -->
+    <color name="md_teal_100">#B2DFDB</color>
+
+    <!-- green -->
+    <color name="md_green_100">#C8E6C9</color>
+
+    <!--light green-->
+    <color name="md_light_green_100">#DCEDC8</color>
+
+    <!-- lime-->
+    <color name="md_lime_100">#F0F4C3</color>
+
+    <!--yellow -->
+    <color name="md_yellow_100">#FFF9C4</color>
+
+    <!--amber-->
+    <color name="md_amber_100">#FFECB3</color>
+
+    <!--orange-->
+    <color name="md_orange_100">#FFE0B2</color>
+
+    <!--deep orange-->
+    <color name="md_deep_orange_100">#FFCCBC</color>
+
+    <!--brown -->
+    <color name="md_brown_100">#D7CCC8</color>
+
+    <!--grey-->
+    <color name="md_grey_100">#F5F5F5</color>
+
+    <!--blue grey-->
+    <color name="md_blue_grey_100">#CFD8DC</color>
+
+</resources>

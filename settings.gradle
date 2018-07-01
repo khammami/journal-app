@@ -1,0 +1,2 @@
+include ':app', ':colorpicker'
+//project(':colorpicker2').projectDir = new File('colorpicker')

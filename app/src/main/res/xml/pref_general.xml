@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_group_date_label">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_time_format_24h_key"
+            android:title="@string/pref_time_format_24h_label" />
+    </PreferenceCategory>
+</PreferenceScreen>
