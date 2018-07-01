@@ -3,13 +3,13 @@
 As the name of the project state, Journal App is a journal application where the users can pen down their thoughts and feelings.
 it's a project proposed by ALC for the #7DaysofCodeChallenge
 
-The app take advantage of Architecture Components and other components like: Firebase for authentfiction with Google  and Firestore as remote databse for persisten, Room library to manage local persistence and offline use.
+The app take advantage of Architecture Components and other components like: Firebase for authentication with Google and Firestore as remote database for persistence, Room library to manage local persistence and offline use.
 
 ## Getting Started
 
 You may clone or [download](https://github.com/khammami/journal-app/archive/master.zip) the repo to your local machine and build your own app with Android Studio or just install the demo apk within the repo.
 
-For Google Authentification & Firebase you need to use your own google-services.json. Here how to get yours:
+For Google Authentication & Firebase you need to use your own google-services.json. Here how to get yours:
 
 * [Authenticate Using Google Sign-In on Android](https://firebase.google.com/docs/auth/android/google-signin)
 * [Adding the JSON File](https://developers.google.com/android/guides/google-services-plugin#adding_the_json_file)
