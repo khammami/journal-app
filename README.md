@@ -16,6 +16,20 @@ For Google Authentication & Firebase you need to use your own google-services.js
 
 You may need to include an api key in your [manifest.xml](https://github.com/khammami/journal-app/blob/411291d3934ded74f1d1c4bfec80a900a321c2a8/app/src/main/AndroidManifest.xml#L29) for Fabric if you want or just remove it.
 
+**Firestore rules I've used:**
+```
+match /databases/{database}/documents {
+    match /users/{userId}/{document=**} {
+      allow read, write: if request.auth.uid == userId;
+    }
+    
+    match /users/{userId}/posts/{postId} {
+      allow write: if request.resource.data.updatedAt > resource.data.updatedAt;
+      allow write: if !exists(/databases/$(database)/documents/users/$(request.auth.uid)/posts/$(request.resource.data.id))
+    }
+  }
+  ```
+
 ### Screenshots
 <img src="https://raw.githubusercontent.com/khammami/journal-app/master/release/screenshots/Screenshot_2018-07-01-16-23-44.png" width="150"> <img src="https://raw.githubusercontent.com/khammami/journal-app/master/release/screenshots/Screenshot_2018-07-01-16-23-33.png" width="150">
 
