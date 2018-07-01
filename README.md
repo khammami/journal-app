@@ -3,18 +3,21 @@
 As the name of the project state, Journal App is a journal application where the users can pen down their thoughts and feelings.
 it's a project proposed by ALC for the #7DaysofCodeChallenge
 
+The app take advantage of Architecture Components and other components like: Firebase for authentfiction with Google  and Firestore as remote databse for persisten, Room library to manage local persistence and offline use.
+
 ## Getting Started
 
-You may clone the repo to your local machine and build your own app with Android Studio or just install the demo apk within the repo.
+You may clone or [download](https://github.com/khammami/journal-app/archive/master.zip) the repo to your local machine and build your own app with Android Studio or just install the demo apk within the repo.
 
 For Google Authentification & Firebase you need to use your own google-services.json. Here how to get yours:
 
 * [Authenticate Using Google Sign-In on Android](https://firebase.google.com/docs/auth/android/google-signin)
 * [Adding the JSON File](https://developers.google.com/android/guides/google-services-plugin#adding_the_json_file)
 
-### Screenshots
+You may need to include an api key in your [manifest.xml](https://github.com/khammami/journal-app/blob/411291d3934ded74f1d1c4bfec80a900a321c2a8/app/src/main/AndroidManifest.xml#L29) for Fabric if you want or just remove it.
 
-<img src="https://raw.githubusercontent.com/khammami/journal-app/master/release/screenshots/Screenshot_2018-07-01-16-23-33.png" width="150">
+### Screenshots
+<img src="https://raw.githubusercontent.com/khammami/journal-app/master/release/screenshots/Screenshot_2018-07-01-16-23-44.png" width="150"> <img src="https://raw.githubusercontent.com/khammami/journal-app/master/release/screenshots/Screenshot_2018-07-01-16-23-33.png" width="150">
 
 ### Prerequisites
 
