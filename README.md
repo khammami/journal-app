@@ -1,5 +1,7 @@
 # Journal App
 
+[![DOI](https://zenodo.org/badge/139102515.svg)](https://zenodo.org/badge/latestdoi/139102515)
+
 As the name of the project state, Journal App is a journal application where the users can pen down their thoughts and feelings.
 it's a project proposed by ALC for the #7DaysofCodeChallenge
 
