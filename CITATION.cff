@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Hammami"
+  given-names: "Khalil"
+  orcid: "https://orcid.org/0000-0002-7198-1489"
+title: "journal-app"
+version: 1.0.0
+doi: 10.5281/zenodo.8094062
+date-released: 2023-06-29
+url: "https://github.com/khammami/journal-app"
